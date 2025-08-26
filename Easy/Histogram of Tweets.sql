@@ -10,6 +10,6 @@ FROM
       FROM tweets
       WHERE YEAR(tweet_date) = 2022
       GROUP BY user_id
-    ) AS Count_Users
+    ) AS Total_Users
 GROUP BY users_num
 ORDER BY tweet_bucket
