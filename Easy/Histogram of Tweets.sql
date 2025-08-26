@@ -1,3 +1,4 @@
+-- Company: Twitter
 SELECT
   COUNT(user_id) AS tweet_bucket,
   users_num
