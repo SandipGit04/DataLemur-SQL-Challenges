@@ -1,4 +1,4 @@
--- Company: Twitter
+-- Problem Statement: Histogram of Tweets | Company: Twitter
 SELECT
   COUNT(user_id) AS tweet_bucket,
   users_num
