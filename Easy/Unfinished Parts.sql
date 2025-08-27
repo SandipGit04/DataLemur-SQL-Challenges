@@ -1,4 +1,4 @@
--- Company: Tesla
+-- Problem Statement: Unfinished Parts | Company: Tesla
 SELECT 
   part,
   assembly_step
