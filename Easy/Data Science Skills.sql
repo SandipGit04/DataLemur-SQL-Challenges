@@ -1,4 +1,4 @@
--- Company: LinkedIn
+-- Problem Statement: Data Science Skills | Company: LinkedIn
 SELECT candidate_id
 FROM candidates
 WHERE skill IN('Python','Tableau','PostgreSQL')
