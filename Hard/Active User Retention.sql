@@ -4,8 +4,7 @@ WITH CTE AS
     SELECT 
       user_id,
       DATE_PART('month', event_date) AS prev_month,
-      LEAD(DATE_PART('month', event_date)) 
-      OVER(PARTITION BY user_id ORDER BY event_date) AS curr_month
+      LEAD(DATE_PART('month', event_date)) OVER(PARTITION BY user_id ORDER BY event_date) AS curr_month
     FROM user_actions
     WHERE DATE_PART('year', event_date) = 2022
   )
